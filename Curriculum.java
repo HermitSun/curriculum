@@ -147,17 +147,17 @@ public class Curriculum {
 			}
 			else if(command==2) {
 				System.out.print("请输入修改后的节次：");
-				String s2=input.nextLine();
+				String s2=input.next();
 				updateContent(s2,selectedContent,command);
 			}
 			else if(command==3) {
 				System.out.print("请输入修改后的名称：");
-				String s3=input.nextLine();
+				String s3=input.next();
 				updateContent(s3,selectedContent,command);
 			}
 			else if(command==4) {
 				System.out.print("请输入修改后的地点：");
-				String s4=input.nextLine();
+				String s4=input.next();
 				updateContent(s4,selectedContent,command);
 			}
 			System.out.println("已更新文件");
